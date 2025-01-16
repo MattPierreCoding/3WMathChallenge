@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvvdcco12v0v8"]
+
+[ext_resource type="Script" path="res://patterns.gd" id="1_ebsvt"]
+
+[node name="patterns" type="Node2D"]
+script = ExtResource("1_ebsvt")
+
+[node name="Title" type="Label" parent="."]
+offset_left = 329.0
+offset_top = 88.0
+offset_right = 879.0
+offset_bottom = 190.0
+theme_override_font_sizes/font_size = 30
+text = "Find the sum by adding the following: "
+horizontal_alignment = 1
+
+[node name="PatternLabel" type="Label" parent="."]
+offset_left = 333.0
+offset_top = 178.0
+offset_right = 883.0
+offset_bottom = 280.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+
+[node name="AnswerInput" type="LineEdit" parent="."]
+offset_left = 414.0
+offset_top = 340.0
+offset_right = 763.0
+offset_bottom = 379.0
+placeholder_text = "Enter Your number here"
+
+[node name="ResultLabel" type="Label" parent="."]
+offset_left = 427.0
+offset_top = 510.0
+offset_right = 744.0
+offset_bottom = 581.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+text = "test"
+horizontal_alignment = 1
+
+[node name="SubmitButton" type="Button" parent="."]
+offset_left = 371.0
+offset_top = 412.0
+offset_right = 836.0
+offset_bottom = 478.0
+text = "Submit"
